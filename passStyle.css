@@ -9,7 +9,7 @@ body {
     font-family: Arial, sans-serif;
     padding: 35px;
     gap: 5px;
-    background-color: rgb(37, 94, 96);
+    background-color: #006D6F;
 }
 h1 {
     transition: 0.2s;

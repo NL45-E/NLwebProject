@@ -16,7 +16,7 @@ function cetak() {
   }
 }
 function gambar() {
-  window.location.href = "sultan.jpg"
+  window.location.href = "beta.html";
 }
 function login() {
   let username = form("username");
