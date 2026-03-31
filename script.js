@@ -15,8 +15,13 @@ function cetak() {
     isi.innerHTML = '<a class="hasil">Input Invalid</a>';
   }
 }
+let tap = 0;
 function gambar() {
+ if (tap === 2) {
   window.location.href = "beta.html";
+ } else {
+  tap++;
+ }
 }
 function login() {
   let username = form("username");
