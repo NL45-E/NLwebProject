@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Calc</title>
+    <script src="math.js"></script>
+    <link rel="stylesheet" href="mathstyle.css">
+  </head>
+  <body>
+    <h1>Advance Calc</h1>
+    <p id="info">Improve version of previous session</p>
+    <h3 id="display">display</h3>
+    <a id="stat">status</a>
+    <div id="batas">
+      
+      <div class="pilihan_user">
+        <label class="radio-container">
+          <input type="radio" name="operator" value="tambah">
+          <span class="checkmark"></span>+
+        </label>
+
+        <label class="radio-container">
+          <input type="radio" name="operator" value="kurang">
+          <span class="checkmark"></span>-
+        </label>
+
+        <label class="radio-container">
+          <input type="radio" name="operator" value="kali">
+          <span class="checkmark"></span>×
+        </label>
+
+        <label class="radio-container">
+          <input type="radio" name="operator" value="bagi">
+          <span class="checkmark"></span>÷
+        </label>
+      </div>
+      <div id="grouping">
+        <input type="number" id="angka1" placeholder="enter first number" class="input_user">
+        <button onclick="math(); bilangan()" id="tombol">submit</button>
+        </div>
+        <input type="number" id="angka2" placeholder="enter second number" class="input_user">
+      
+    </div>
+    <p id="line">.</p>
+    <p id="line2">.</p>
+    <p id="text"><b>experimental</b> edition.</p>
+    <a class="copyright4" href="https://www.instagram.com/muhammad.nabil.rifqi?igsh=MTQxYmI3ZHAwdHcyeg==">© 2026 Nabil. All right reserved.</a>
+    
+  </body>
+</html>
