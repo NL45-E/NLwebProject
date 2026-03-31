@@ -18,6 +18,7 @@ function cetak() {
 let tap = 0;
 function gambar() {
  if (tap === 2) {
+  tap = 0;
   window.location.href = "beta.html";
  } else {
   tap++;
