@@ -67,7 +67,7 @@ h1 {
     background-color:  inherit;
 
 }
-#createPass, #getLength{    
+#createPass, #getLength, #genblocks{    
     padding: 6px;
     border: none;
     border-radius: 5px;
@@ -80,6 +80,15 @@ h1 {
 } #getLength {
     width: 100%;
     padding: 8px;
+}
+#genblocks {
+    padding: 6px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition: 0.4s;
+} #genblocks:hover {
+    padding: 10px;
+    background-color: #032627e1;
 }
 #createPass:hover, #getLength:hover {
     background-color: rgb(17, 62, 62);
@@ -110,4 +119,26 @@ h1 {
     white-space: normal;
     overflow-wrap: anywhere;
     word-break: break-word;
-} 
+}
+/* random blocks */
+#ballLocate {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.blocks {
+    /* before */
+    border: 0 solid inherit;
+    background-color: rgba(127, 255, 212, 0.334);
+    padding: 3px;
+    border-radius: 6px;
+    justify-content: center;
+    display: flex;
+    font-weight: 700;
+    color: rgb(49, 47, 47);
+    transition: 0.4s;
+} .blocks:hover {
+    padding: 7px;
+    background-color: aquamarine;
+
+}

@@ -19,7 +19,7 @@ let tap = 0;
 function gambar() {
  if (tap === 2) {
   tap = 0;
-  window.location.href = "beta.html";
+  window.location.href = "";// changeable
  } else {
   tap++;
  }
@@ -40,6 +40,7 @@ function login() {
   }
   username.value = "";
 }
+// options
 function old() {
   window.location.href = "main.html";
 }
@@ -48,4 +49,7 @@ function newest() {
 }
 function passwordGenerator() {
   window.location.href = "passGenerator.html";
+}
+function randomBlock() {
+  window.location.href = "randBlock.html";
 }
