@@ -86,9 +86,13 @@ h1 {
     margin-top: 5px;
     margin-bottom: 5px;
     transition: 0.4s;
-    padding-left: 105px;
-    padding-right: 70px;
+    width: 100%;
 } 
+/* strobo */
+#strobo {
+    position: absolute;
+    right: 50px;
+}
 #genblocks:hover {
     padding-top: 10px;
     padding-bottom: 10px;
