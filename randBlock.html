@@ -11,7 +11,10 @@
     <p>Beta</p>
     <h1>Random blocks</h1>
     <p>Click the button to generate random blocks:</p>
-    <button id="genblocks" onclick="randomBlocks()">Randomize Block</button>
+    <div class="horizontal">
+        <button id="genblocks" onclick="randomBlocks(1500, 'selected')">Randomize Block</button>
+        <img id="strobo" onclick="strobo()" src="reload.png" height="20" alt="strobo">
+    </div>
     <div id="ballLocate">
         <p class="blocks" id="b1">1</p>
         <p class="blocks" id="b2">2</p>

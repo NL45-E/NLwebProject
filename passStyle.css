@@ -86,8 +86,12 @@ h1 {
     margin-top: 5px;
     margin-bottom: 5px;
     transition: 0.4s;
-} #genblocks:hover {
-    padding: 10px;
+    padding-left: 105px;
+    padding-right: 85px;
+} 
+#genblocks:hover {
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #032627e1;
 }
 #createPass:hover, #getLength:hover {
@@ -140,5 +144,18 @@ h1 {
 } .blocks:hover {
     padding: 7px;
     background-color: aquamarine;
-
+}
+.blocks.selected {
+    background-color: rgba(160, 31, 57, 0.37);
+    color: #0b2a2a;
+}
+.horizontal {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.blocks.red {
+    background-color: rgba(255, 0, 51, 0.638);
+    color: aquamarine;
+    padding: 8px;
 }
